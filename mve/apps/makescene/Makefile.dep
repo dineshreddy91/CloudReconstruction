@@ -1,0 +1,13 @@
+makescene.o: makescene.cc ../../libs/math/matrix.h \
+ ../../libs/math/defines.h ../../libs/math/algo.h \
+ ../../libs/math/vector.h ../../libs/math/matrix_tools.h \
+ ../../libs/util/system.h ../../libs/util/defines.h \
+ ../../libs/util/timer.h ../../libs/util/arguments.h \
+ ../../libs/util/strings.h ../../libs/util/exception.h \
+ ../../libs/util/file_system.h ../../libs/util/tokenizer.h \
+ ../../libs/mve/bundle.h ../../libs/mve/camera.h ../../libs/mve/defines.h \
+ ../../libs/mve/mesh.h ../../libs/mve/bundle_io.h ../../libs/mve/view.h \
+ ../../libs/mve/image_base.h ../../libs/mve/image.h \
+ ../../libs/math/functions.h ../../libs/mve/image_tools.h \
+ ../../libs/math/accum.h ../../libs/mve/image_io.h \
+ ../../libs/mve/image_exif.h ../../libs/mve/mesh_tools.h

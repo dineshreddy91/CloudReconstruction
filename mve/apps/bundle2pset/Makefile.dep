@@ -1,0 +1,9 @@
+bundle2pset.o: bundle2pset.cc ../../libs/util/system.h \
+ ../../libs/util/defines.h ../../libs/util/arguments.h \
+ ../../libs/util/strings.h ../../libs/util/exception.h \
+ ../../libs/mve/bundle.h ../../libs/mve/camera.h ../../libs/mve/defines.h \
+ ../../libs/mve/mesh.h ../../libs/math/vector.h ../../libs/math/defines.h \
+ ../../libs/math/algo.h ../../libs/mve/bundle_io.h \
+ ../../libs/mve/mesh_io_ply.h ../../libs/mve/image.h \
+ ../../libs/math/functions.h ../../libs/math/matrix.h \
+ ../../libs/mve/image_base.h ../../libs/mve/view.h

@@ -1,0 +1,32 @@
+fancy_progress_printer.o: fancy_progress_printer.cc \
+ fancy_progress_printer.h ../../libs/dmrecon/dmrecon.h \
+ ../../libs/mve/bundle.h ../../libs/mve/camera.h ../../libs/mve/defines.h \
+ ../../libs/mve/mesh.h ../../libs/math/vector.h ../../libs/math/defines.h \
+ ../../libs/math/algo.h ../../libs/mve/image.h \
+ ../../libs/math/functions.h ../../libs/math/matrix.h \
+ ../../libs/mve/image_base.h ../../libs/util/strings.h \
+ ../../libs/util/defines.h ../../libs/mve/scene.h ../../libs/mve/view.h \
+ ../../libs/dmrecon/defines.h ../../libs/dmrecon/patch_optimization.h \
+ ../../libs/dmrecon/patch_sampler.h ../../libs/dmrecon/settings.h \
+ ../../libs/dmrecon/single_view.h ../../libs/dmrecon/image_pyramid.h \
+ ../../libs/dmrecon/local_view_selection.h \
+ ../../libs/dmrecon/view_selection.h ../../libs/dmrecon/progress.h \
+ ../../libs/util/system.h
+dmrecon.o: dmrecon.cc ../../libs/dmrecon/settings.h \
+ ../../libs/math/vector.h ../../libs/math/defines.h \
+ ../../libs/math/algo.h ../../libs/dmrecon/defines.h \
+ ../../libs/dmrecon/dmrecon.h ../../libs/mve/bundle.h \
+ ../../libs/mve/camera.h ../../libs/mve/defines.h ../../libs/mve/mesh.h \
+ ../../libs/mve/image.h ../../libs/math/functions.h \
+ ../../libs/math/matrix.h ../../libs/mve/image_base.h \
+ ../../libs/util/strings.h ../../libs/util/defines.h \
+ ../../libs/mve/scene.h ../../libs/mve/view.h \
+ ../../libs/dmrecon/patch_optimization.h \
+ ../../libs/dmrecon/patch_sampler.h ../../libs/dmrecon/single_view.h \
+ ../../libs/dmrecon/image_pyramid.h \
+ ../../libs/dmrecon/local_view_selection.h \
+ ../../libs/dmrecon/view_selection.h ../../libs/dmrecon/progress.h \
+ ../../libs/util/timer.h ../../libs/util/arguments.h \
+ ../../libs/util/exception.h ../../libs/util/system.h \
+ ../../libs/util/tokenizer.h ../../libs/util/file_system.h \
+ fancy_progress_printer.h

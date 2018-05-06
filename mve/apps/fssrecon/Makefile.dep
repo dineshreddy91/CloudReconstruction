@@ -1,0 +1,13 @@
+fssrecon.o: fssrecon.cc ../../libs/mve/mesh.h ../../libs/math/vector.h \
+ ../../libs/math/defines.h ../../libs/math/algo.h \
+ ../../libs/mve/defines.h ../../libs/mve/mesh_io_ply.h \
+ ../../libs/util/system.h ../../libs/util/defines.h \
+ ../../libs/mve/image.h ../../libs/math/functions.h \
+ ../../libs/math/matrix.h ../../libs/mve/image_base.h \
+ ../../libs/util/strings.h ../../libs/mve/camera.h ../../libs/mve/view.h \
+ ../../libs/util/timer.h ../../libs/util/arguments.h \
+ ../../libs/util/exception.h ../../libs/fssr/sample_io.h \
+ ../../libs/fssr/defines.h ../../libs/fssr/sample.h \
+ ../../libs/fssr/iso_octree.h ../../libs/fssr/voxel.h \
+ ../../libs/fssr/octree.h ../../libs/fssr/iso_surface.h \
+ ../../libs/fssr/hermite.h

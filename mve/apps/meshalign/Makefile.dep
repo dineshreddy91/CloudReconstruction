@@ -1,0 +1,24 @@
+meshlab_alignment.o: meshlab_alignment.cc ../../libs/util/exception.h \
+ ../../libs/util/defines.h ../../libs/util/strings.h \
+ ../../libs/util/file_system.h ../../libs/util/tokenizer.h \
+ ../../libs/mve/mesh_io.h ../../libs/mve/defines.h ../../libs/mve/mesh.h \
+ ../../libs/math/vector.h ../../libs/math/defines.h \
+ ../../libs/math/algo.h meshlab_alignment.h range_image.h \
+ ../../libs/math/matrix.h
+stanford_alignment.o: stanford_alignment.cc ../../libs/util/file_system.h \
+ ../../libs/util/defines.h ../../libs/util/strings.h \
+ ../../libs/util/exception.h ../../libs/util/tokenizer.h \
+ ../../libs/mve/mesh.h ../../libs/math/vector.h ../../libs/math/defines.h \
+ ../../libs/math/algo.h ../../libs/mve/defines.h ../../libs/mve/mesh_io.h \
+ ../../libs/mve/mesh_tools.h ../../libs/math/matrix.h \
+ ../../libs/math/quaternion.h stanford_alignment.h ../../libs/mve/image.h \
+ ../../libs/math/functions.h ../../libs/mve/image_base.h range_image.h
+meshalign.o: meshalign.cc ../../libs/util/system.h \
+ ../../libs/util/defines.h ../../libs/util/file_system.h \
+ ../../libs/util/arguments.h ../../libs/util/strings.h \
+ ../../libs/util/exception.h ../../libs/mve/mesh.h \
+ ../../libs/math/vector.h ../../libs/math/defines.h \
+ ../../libs/math/algo.h ../../libs/mve/defines.h ../../libs/mve/mesh_io.h \
+ ../../libs/mve/mesh_tools.h ../../libs/math/matrix.h \
+ stanford_alignment.h ../../libs/mve/image.h ../../libs/math/functions.h \
+ ../../libs/mve/image_base.h range_image.h meshlab_alignment.h

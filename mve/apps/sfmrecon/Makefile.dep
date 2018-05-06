@@ -1,0 +1,24 @@
+sfmrecon.o: sfmrecon.cc ../../libs/util/system.h \
+ ../../libs/util/defines.h ../../libs/util/timer.h \
+ ../../libs/util/arguments.h ../../libs/util/strings.h \
+ ../../libs/util/exception.h ../../libs/util/file_system.h \
+ ../../libs/util/tokenizer.h ../../libs/mve/scene.h \
+ ../../libs/mve/defines.h ../../libs/mve/view.h ../../libs/mve/camera.h \
+ ../../libs/mve/image_base.h ../../libs/mve/image.h \
+ ../../libs/math/functions.h ../../libs/math/defines.h \
+ ../../libs/math/vector.h ../../libs/math/algo.h ../../libs/math/matrix.h \
+ ../../libs/mve/bundle.h ../../libs/mve/mesh.h ../../libs/mve/bundle_io.h \
+ ../../libs/mve/image_tools.h ../../libs/math/accum.h \
+ ../../libs/sfm/nearest_neighbor.h ../../libs/sfm/defines.h \
+ ../../libs/sfm/feature_set.h ../../libs/util/aligned_memory.h \
+ ../../libs/util/aligned_allocator.h ../../libs/sfm/sift.h \
+ ../../libs/sfm/surf.h ../../libs/sfm/defines.h \
+ ../../libs/sfm/bundler_common.h ../../libs/sfm/camera_pose.h \
+ ../../libs/math/matrix_tools.h ../../libs/sfm/correspondence.h \
+ ../../libs/sfm/bundler_features.h ../../libs/sfm/bundler_matching.h \
+ ../../libs/sfm/ransac_fundamental.h ../../libs/sfm/fundamental.h \
+ ../../libs/sfm/matching_base.h ../../libs/sfm/matching.h \
+ ../../libs/sfm/bundler_tracks.h ../../libs/sfm/bundler_init_pair.h \
+ ../../libs/sfm/ransac_homography.h ../../libs/sfm/homography.h \
+ ../../libs/sfm/bundler_intrinsics.h ../../libs/sfm/bundler_incremental.h \
+ ../../libs/sfm/ransac_pose_p3p.h

@@ -1,0 +1,14 @@
+scene2pset.o: scene2pset.cc ../../libs/math/octree_tools.h \
+ ../../libs/math/defines.h ../../libs/math/vector.h \
+ ../../libs/math/algo.h ../../libs/math/matrix.h \
+ ../../libs/math/matrix_tools.h ../../libs/math/functions.h \
+ ../../libs/util/system.h ../../libs/util/defines.h \
+ ../../libs/util/arguments.h ../../libs/util/strings.h \
+ ../../libs/util/exception.h ../../libs/util/tokenizer.h \
+ ../../libs/mve/depthmap.h ../../libs/mve/defines.h \
+ ../../libs/mve/camera.h ../../libs/mve/image.h \
+ ../../libs/mve/image_base.h ../../libs/mve/mesh.h \
+ ../../libs/mve/mesh_info.h ../../libs/mve/mesh_io.h \
+ ../../libs/mve/mesh_io_ply.h ../../libs/mve/view.h \
+ ../../libs/mve/mesh_tools.h ../../libs/mve/scene.h \
+ ../../libs/mve/bundle.h

@@ -1,0 +1,12 @@
+mesh2pset.o: mesh2pset.cc ../../libs/util/system.h \
+ ../../libs/util/defines.h ../../libs/util/tokenizer.h \
+ ../../libs/util/strings.h ../../libs/util/timer.h \
+ ../../libs/util/arguments.h ../../libs/util/exception.h \
+ ../../libs/mve/mesh.h ../../libs/math/vector.h ../../libs/math/defines.h \
+ ../../libs/math/algo.h ../../libs/mve/defines.h \
+ ../../libs/mve/mesh_tools.h ../../libs/math/matrix.h \
+ ../../libs/mve/mesh_io.h ../../libs/mve/mesh_io_ply.h \
+ ../../libs/mve/image.h ../../libs/math/functions.h \
+ ../../libs/mve/image_base.h ../../libs/mve/camera.h \
+ ../../libs/mve/view.h ../../libs/mve/mesh_info.h \
+ ../../libs/mve/depthmap.h

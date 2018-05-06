@@ -1,0 +1,20 @@
+featurerecon.o: featurerecon.cc ../../libs/math/vector.h \
+ ../../libs/math/defines.h ../../libs/math/algo.h \
+ ../../libs/mve/bundle_io.h ../../libs/mve/bundle.h \
+ ../../libs/mve/camera.h ../../libs/mve/defines.h ../../libs/mve/mesh.h \
+ ../../libs/mve/scene.h ../../libs/mve/view.h ../../libs/mve/image_base.h \
+ ../../libs/util/strings.h ../../libs/util/defines.h \
+ ../../libs/mve/image.h ../../libs/math/functions.h \
+ ../../libs/math/matrix.h ../../libs/sfm/bundler_common.h \
+ ../../libs/util/aligned_memory.h ../../libs/util/aligned_allocator.h \
+ ../../libs/sfm/camera_pose.h ../../libs/math/matrix_tools.h \
+ ../../libs/sfm/defines.h ../../libs/sfm/correspondence.h \
+ ../../libs/sfm/feature_set.h ../../libs/sfm/sift.h ../../libs/sfm/surf.h \
+ ../../libs/sfm/defines.h ../../libs/sfm/bundler_features.h \
+ ../../libs/sfm/bundler_matching.h ../../libs/sfm/ransac_fundamental.h \
+ ../../libs/sfm/fundamental.h ../../libs/sfm/matching_base.h \
+ ../../libs/sfm/matching.h ../../libs/sfm/nearest_neighbor.h \
+ ../../libs/sfm/bundler_tracks.h ../../libs/sfm/triangulate.h \
+ ../../libs/util/arguments.h ../../libs/util/exception.h \
+ ../../libs/util/file_system.h ../../libs/util/system.h \
+ ../../libs/util/timer.h
