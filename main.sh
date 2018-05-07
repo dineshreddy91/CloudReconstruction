@@ -2,7 +2,7 @@ BASEDIR=$(pwd)
 dir=$BASEDIR/dataset/
 #dir=/home/dinesh/MVS_libs/cloud_evolve_mvs/CloudReconstruction/dataset/
 echo "$dir"
-for i in 01 #02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 
+for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 
 do
      imgdir=$dir/results/$i
      results_dir=$dir/results
